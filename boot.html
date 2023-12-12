@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Bootstrap</title>
+
+    <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+        Popover on top
+      </button>
+      <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+        Popover on right
+      </button>
+      <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+        Popover on bottom
+      </button>
+      <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+        Popover on left
+      </button>
+
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<main>
+      <section class="banner">
+        <div class="card text-bg-dark">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS78XNqd1FD16iABQtSquE8zMCZUkQWTROjtA&usqp=CAU" class="card-img" alt="developer">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+      </section>
+
+      <section class="content">
+        <div class="card-group">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGrcm_S5zxSjrZ02xc9Vfdu4kXivX4wGEXFA&usqp=CAU" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXYjyy9_-AOaFiTI6ellIBPkq35vBsTIZxmw&usqp=CAU" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXj-GOIxqNJ2WiJtGStR5s6Veot2Wiuj41qA&usqp=CAU" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="carusel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5yTr3d9Of_MfCL6fSVsATw-T7C1JSqt745g&usqp=CAU" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuh0o87Wkco2lIbqpWjqZqiYiikKN50Cc7kc8IgBAyCRgNFhGYvvCjHub-w9dGB2KrA9g&usqp=CAU" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1lPNpxvPhDpCHc2hBWhjj2Jph9278ULqpscktIiTW8X5WTNn6cN7kEUUD5SzB162lM9Y&usqp=CAU" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+
+      <section class="scrollspy">
+        <div class="row">
+            <div class="col-4">
+              <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link" href="#item-1">Item 1</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                  </nav>
+                  <a class="nav-link" href="#item-2">Item 2</a>
+                  <a class="nav-link" href="#item-3">Item 3</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                  </nav>
+                </nav>
+              </nav>
+            </div>
+          
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                  <h4>Item 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur dignissimos commodi ducimus adipisci atque sapiente earum quos saepe natus blanditiis incidunt quaerat necessitatibus ea quia facilis deserunt provident maiores, exercitationem voluptas ex, magni voluptatum! Ad aliquid ipsum facere odit sapiente illo sunt, officiis vitae necessitatibus atque. Dolores, aliquid? Dolorum, exercitationem!</p>
+                </div>
+                <div id="item-1-1">
+                  <h5>Item 1-1</h5>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum fuga tempore ad accusamus dignissimos, quam tempora! Eum expedita rem praesentium aperiam, officiis molestias neque id consequuntur. Maxime illo distinctio blanditiis amet similique quos at, deserunt id animi expedita fuga perspiciatis!</p>
+                </div>
+                <div id="item-1-2">
+                  <h5>Item 1-2</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magni in nostrum porro fuga, nobis, officia fugit aliquid quo reprehenderit libero eveniet quis praesentium rem laudantium quasi magnam at labore voluptates harum perspiciatis. Quo nobis excepturi dolores architecto deserunt dolorum repellendus quibusdam odio maxime reiciendis?</p>
+                </div>
+                <div id="item-2">
+                  <h4>Item 2</h4>
+                  <p>...</p>
+                </div>
+                <div id="item-3">
+                  <h4>Item 3</h4>
+                  <p>...</p>
+                </div>
+                <div id="item-3-1">
+                  <h5>Item 3-1</h5>
+                  <p>...</p>
+                </div>
+                <div id="item-3-2">
+                  <h5>Item 3-2</h5>
+                  <p>...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+</main>
+</head>
+<body>
+
+    <!-- Colors -->
+    <!-- Danger = qizil -->
+    <!-- Waring = sariq -->
+    <!-- Dark = qora -->
+    <!-- Light = oq -->
+    <!-- Success -->
+    <!-- Info -->
+    <!-- Primary -->
+    <!-- Secondary -->
+
+    <!-- Mobile frist -->
+
+    <!-- --0 _ 575px == xs -->
+     <!-- --576 _ 767px == sm -->
+      <!-- --768 _ 991px == md -->
+       <!-- --992 _ 1199px == lg -->
+        <!-- --1200 _ 1399px == xl -->
+         <!-- --1400 yoki undan katta _ == xxl -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
